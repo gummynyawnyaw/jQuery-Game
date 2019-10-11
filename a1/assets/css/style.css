@@ -1,0 +1,71 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT5J5B8bVLAokREQjpuXrlD4ZDovC9-Q90xnVwbAK-re4iemBA9);
+	background-size: cover;
+	height: 100vh;
+	text-align: center;
+}
+
+h1{
+	margin-top: 5%;
+	color: #f2f2f2;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.container{
+	position: absolute;
+	bottom: 20%;
+	right: 8%
+}
+
+.row{
+	margin: 5%;
+}
+
+.aibtn{
+	margin-left: 10px;
+}
+
+.character{
+	position: absolute;
+	width: 100px;
+}
+
+#ai{
+	top: 200px;
+}
+
+#player{
+	top: 300px;
+}
+
+img{
+	height: 50px;
+}
+#id{
+	width: 100vw;
+	height: 100vh;
+}
+
+#finishFlag{
+	position:absolute;
+	left: 850px;
+
+}
+
+#finishFlag img{
+	height: 100px;
+}
+
+#finishLine img{
+	position: absolute;
+	left: 900px;
+	height: 40vh;
+	width: 20%;
+}
